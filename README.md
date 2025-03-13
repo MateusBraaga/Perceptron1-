@@ -21,3 +21,4 @@ for teste in testes:
     previsao = modelo.predict([teste])
     print(f"Ensolarado: {teste[0]}, Final de Semana: {teste[1]}, Parque Lotado: {teste[2]} => Ir ao Parque? {'Sim' if previsao[0] == 1 else 'Não'}")
 
+
